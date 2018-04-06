@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_3sdp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_9sdp"
+        android:gravity="left"
+        android:padding="@dimen/_3sdp"
+
+        android:id="@+id/spinnerlistitem"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".7dp"
+        android:background="#313335"
+        android:layout_marginTop="@dimen/_1sdp"/>
+</LinearLayout>
