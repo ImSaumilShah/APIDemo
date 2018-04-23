@@ -12,7 +12,7 @@ import retrofit2.http.GET;
 
 public interface APIService {
 
-    @GET("customer/getCountries")
+    @GET("END_POINT_URL")
     Call<CountryRespnse> getCountryDataList();
 
 }
